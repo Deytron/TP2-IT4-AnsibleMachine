@@ -1,0 +1,10 @@
+- name: Install vim
+  hosts: ynov
+  user: ansible
+  gather_facts: no
+  become: true
+  tasks:
+  - name: Install vim package
+    yum:
+      name: vim
+      state: present
