@@ -1,0 +1,14 @@
+- name: Create webroot
+  file:
+    path: "{{ nginx_webroot }}"
+    state: directory
+
+- name: Create index
+  copy:
+    dest: "{{ nginx_webroot }}/index.html"
+    content: "{{ nginx_index_content }}"
+
+- name: Remove NGINX Virtual Host
+  file:
+    path: /etc/nginx/conf.d/{{ nginx_servername }}.conf
+    state: absent

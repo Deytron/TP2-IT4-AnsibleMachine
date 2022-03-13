@@ -1,0 +1,5 @@
+handlers:
+  - name: Edited config
+    service:
+      name: nginx
+      state: restarted
