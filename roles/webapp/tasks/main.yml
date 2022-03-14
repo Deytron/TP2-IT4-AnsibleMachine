@@ -1,0 +1,5 @@
+- name: Install Apache
+  import_tasks: install.yml
+
+- name: Configure Apache
+  import_tasks: config.yml

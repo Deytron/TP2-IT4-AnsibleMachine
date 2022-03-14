@@ -1,6 +1,9 @@
 - name: Add the user 'johnd' with a specific uid and a primary group of 'admin'
   user:
     name: "{{ item }}"
+    password: "{{ paswords }}"
     comment: Added from users var
-    group: admin
+    groups: "{{ groups }}"
+    create_home: yes
+    ssh_key_file: 
   with_items: "{{ users }}" # ceci permet de boucler sur la liste users

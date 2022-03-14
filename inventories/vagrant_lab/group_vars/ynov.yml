@@ -2,3 +2,12 @@ users:
   - le_nain
   - l_elfe
   - le_ranger
+passwords:
+  - root
+  - root2
+  - grossecu
+  - tavu
+groups:
+  - wheel
+  - admin
+ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCwQCqg2elPjN8ykomSbXNmbAox9buUt4Dm2wyCL8vnibWjRJUnIxMVpH7xtTwAzbWkW7FWgLZ7qeDu2GwSRTAa16lSgO3k/aNrCvjrS09uIeneE12gspDl0KcY8/fHSveR0iZ2nVVora4bXsqiJOGTrVUC3E+4c5INHMZ8WjvzjY9B3etGxPwwoIX4Wo2/NMYKKemfhzItLg/qo3KyGxKPrZZ5bkp7Lnzaz44rYhnEtT453zKD+NZlaxVTh7nMM7sPheeOg4k5dWQ3fyjn0k1B1KtV25qkVTJK+gbLsK7zcIxA5sTkzyIQlQDXjFdBGPMkWEJOM4NRt+w+R1kTCvuOGCo0SXW/SRDpr13aA/Y0gWy3VikWr/luzeoAt0IfiCUZO39bnU4TmzzFZkiyqz9WnhPjgq7hq6HyQkoibSGS2AnEMKrT5QpLsJhxI25fxqOrTrBKCQlSXY8l7XYuDB5NuSNa3Plg3H8O7CD1vRl5eK/guvBW/iQ+ZSLTcQQuVHc= lemalgache@Malgache-Zenbook"

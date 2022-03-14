@@ -1,0 +1,10 @@
+- name: Install NGINX
+  hosts: ynov
+  user: ansible
+  gather_facts: no
+  become: true
+  tasks:
+  - name: Install apache packages 
+    yum:
+      name: httpd
+      state: present
